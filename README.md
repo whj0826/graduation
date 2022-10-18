@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 吴华杰的毕业设计
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+##  npm 指令
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+跳转 [http://localhost:3000](http://localhost:3000)
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `npm run build` 
+### 删除旧版本 ``npm uninstall -g create-react-app``
+### 登录模块 logon
+- **登录** Sign in
+- __注册__ register
+- __找回密码（忘记密码）__ Forgot password
+  - 使用邮箱找回密码
+- __描述__
+    1. 使用`Material-UI`提供的组件
+    2. 使用`react-redux`实现登录的状态管理
+    3. 
+    
+## 组件描述
+### 布局
+1. Stack 垂直或水平布局 (一列或一行)
+   - spacing={num}  间距大小
+   - direction=""   布局方向 
+     - column 列
+     - row 行
+   - divider={}   分隔线
+     - 如`<Divider orientation="vertical" flexItem />`
+2. Box 一般用于包装组件
+    - sx={} 自定义样式
+    - component="" box类型，如 div(默认), span, from
+3. Container 可以其包含的内容水平剧中
+    - maxWidth="" 最大宽度 可定义为 sm 
+    - fixed  固定大小
+4. Grid 栅格
+    - container 居中
+    - spacing={num} 间距大小
+    - rowSpacing 行间距
+    - columnSpacing 列间距
+    - item 声明是一个格子
+    - xs={num} 一个格子的宽度 num最大值为12
+    - md={num}
+    - key
+    - item 声明这个`<Grid>`是子元素

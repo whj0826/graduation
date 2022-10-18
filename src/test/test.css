@@ -1,0 +1,11 @@
+.slide{
+    display: block;
+    display: none;
+}
+.sb{
+    width: 100px;
+    height: 400px;
+}
+.a{
+    border-style: none;
+}

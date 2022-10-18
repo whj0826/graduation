@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/701.2177c02a.chunk.css","mappings":"AAAA,OACI,aAAc,CACd,YACJ,CACA,IAEI,YAAa,CADb,WAEJ,CACA,GACI,iBACJ","sources":["test/test.css"],"sourcesContent":[".slide{\r\n    display: block;\r\n    display: none;\r\n}\r\n.sb{\r\n    width: 100px;\r\n    height: 400px;\r\n}\r\n.a{\r\n    border-style: none;\r\n}"],"names":[],"sourceRoot":""}

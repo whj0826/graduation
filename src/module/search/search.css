@@ -1,0 +1,12 @@
+.search-main{
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-color: #0055ff;*/
+    width: 40%;
+}
+.search-but{
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0055ff;
+}

@@ -1,0 +1,33 @@
+.list-box{
+    border: 1px solid black;
+    padding: 0 !important;
+}
+.list-left{
+    position: fixed;
+    width: 100px !important;
+}
+.list-right{
+    display: flex;
+    justify-content: center;
+}
+.list-tabs{
+    overflow: unset !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    min-width: 60px !important;
+}
+.css-1o7apob-MuiGrid-root{
+    max-width: 100px;
+}
+.list-list-box:hover{
+    background-color: rgba(218, 208, 209, 0.78);
+    border-radius: 5px;
+}
+.list-link{
+    color: black;
+    text-decoration: none;
+}
+.list-swiper-but{
+    border-style: none;
+}
+
