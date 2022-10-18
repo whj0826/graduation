@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/377.1840d504.chunk.js","mappings":"yJAAe,SAASA,IACpB,OACI,kCAIP,C","sources":["module/order/order.js"],"sourcesContent":["export default function Order(){\r\n    return(\r\n        <div>\r\n            order\r\n        </div>\r\n    )\r\n}"],"names":["Order"],"sourceRoot":""}

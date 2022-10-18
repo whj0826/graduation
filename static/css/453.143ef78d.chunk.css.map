@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/453.143ef78d.chunk.css","mappings":"AAAA,MACI,SACJ,CCFA,UACI,WACJ,CACA,UACI,gBACJ","sources":["module/logon/register/register.css","common/css/input.css"],"sourcesContent":[".head{\r\n    color: red;\r\n}",".root-div{\r\n    width: 320px;\r\n}\r\n.but-code{\r\n    margin-left: 15px;\r\n}"],"names":[],"sourceRoot":""}
